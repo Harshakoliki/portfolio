@@ -4,8 +4,8 @@ import 'react-vertical-timeline-component/style.min.css';
 import book from '../Images/book.png';
 export default function Education(){
     return(
-        <container className="">
-            <div className="p-5 bg-red-500">
+        <container className="" id="#id_education">
+            <div className="p-5">
               <p className="text-center text-4xl font-bold">Education</p>
 
               <VerticalTimeline lineColor="#000">

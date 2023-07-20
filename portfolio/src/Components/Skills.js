@@ -13,14 +13,14 @@ import sql from '../Images/sql.png';
 
 export default function Skills(){
     return(
-        <container className="flex justify-center text-black bg-gray-500">
-            <div className="border border-black rounded-xl p-4 bg-red-50 shadow-lg" style={{width:"50vw"}}>
+        <container className="flex justify-center items-center text-black py-8" id="id_skills">
+            <div className="border border-black rounded-3xl p-4 bg-red-50 shadow-lg" style={{width:"60vw"}}>
 
-                <p className='text-4xl font-bold text-center'>Skills</p>
+                <p className='md:text-4xl text-3xl font-bold text-center'>Skills</p>
 
                 <div>
-                    <p className='text-lg font-bold text-center mt-5'>Languages</p>
-                    <div className='flex justify-center p-0'>
+                    <p className='text-lg font-semibold text-center mt-5'>Languages</p>
+                    <div className='flex justify-center flex-wrap'>
 
                         <section className='m-3 text-center p-2'>
                             <img src={html} style={{width:"5rem"}}/>
@@ -44,8 +44,8 @@ export default function Skills(){
                 </div>
 
                 <div>
-                    <p className='text-lg font-bold text-center mt-5'>Web Technologies</p>
-                    <div className='flex justify-center p-0'>
+                    <p className='text-lg font-semibold text-center mt-5'>Web Technologies</p>
+                    <div className='flex justify-center flex-wrap'>
 
                         <section className='m-3 text-center p-2'>
                             <img src={reactjs} style={{width:"5rem"}}/>
@@ -71,8 +71,8 @@ export default function Skills(){
 
 
                 <div>
-                    <p className='text-lg font-bold text-center mt-5'>DataBase</p>
-                    <div className='flex justify-center p-0'>
+                    <p className='text-lg font-semibold text-center mt-5'>DataBase</p>
+                    <div className='flex justify-center flex-wrap'>
 
                         <section className='m-3 text-center p-2'>
                             <img src={sql} style={{width:"5rem"}}/>
@@ -86,8 +86,8 @@ export default function Skills(){
 
 
                 <div>
-                    <p className='text-lg font-bold text-center mt-5'>Tools</p>
-                    <div className='flex justify-center p-0'>
+                    <p className='text-lg font-semibold text-center mt-5'>Tools</p>
+                    <div className='flex justify-center flex-wrap'>
 
                     <section className='m-3 text-center p-2'>
                             <img src={vscode} style={{width:"5rem"}}/>
