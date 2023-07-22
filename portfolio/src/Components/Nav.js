@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 function Nav(){
     return(
-        <div className='lg:flex lg:justify-between lg:items-center lg:py-4 lg:px-10 py-3 px-10 bg-white flex justify-center items-center fixed w-full'>
+        <div className='nav_bar lg:flex lg:justify-between lg:items-center lg:py-4 lg:px-10 py-3 px-10 flex justify-center items-center w-full'>
             <div className='font-bold py-2 text-center md:text-center md:text-3xl text-2xl'>
                 Portfolio.
             </div>
@@ -15,13 +15,13 @@ function Nav(){
             </div>
             <div>
                 <ul className='lg:flex lg:justify-end hidden'>
-                    <li className='border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_about' className=''>About</a></li>
-                    <li className='border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_experience' className=''>Experience</a></li>
-                    <li className='border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_skills' className=''>Skills</a></li>
-                    <li className='border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_projects' className=''>Projects</a></li>
-                    <li className='border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_education' className=''>Education</a></li>
-                    <li className='border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_contacts' className=''>Contact</a></li>
-                    <li className='border border-black md:p-3 md:ml-3 rounded-md text-white bg-red-500 hover:bg-black hover:text-white'><a href='' className='flex'>Resume<img src={resume} className='w-6 ml-1'/></a></li>
+                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_about' className=''>About</a></li>
+                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_experience' className=''>Experience</a></li>
+                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_skills' className=''>Skills</a></li>
+                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_projects' className=''>Projects</a></li>
+                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_education' className=''>Education</a></li>
+                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_contacts' className=''>Contact</a></li>
+                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md text-white bg-red-500 hover:bg-black hover:text-white'><a href='' className='flex'>Resume<img src={resume} className='w-6 ml-1'/></a></li>
                 </ul>
             </div>
         </div>

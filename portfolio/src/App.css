@@ -4,16 +4,60 @@
 
 body{
     font-family: 'Exo', sans-serif;
-    background-color: rgb(149, 199, 253);
+
+    background: linear-gradient(0.23deg, #1B1B1B 0.2%, rgb(175, 184, 219) 748.35%);
+
+    background-attachment: fixed;
+    color: white;
+}
+
+.nav_bar{
+  background-color: rgba(255, 255, 255, 0.931);
+  color: black;
+}
+
+
+.pop_up{
+  transition: transform 0.3s ease 0s;
+}
+.pop_up:hover{
+  transform: translateY(-10px);
 }
 
 
 /* -----ABOUT------- */
 
 .about{
-  background-image: url(./Images/bg_icons/bg.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+}
+
+.rocket{
+  animation: bounce 3s ease-in-out 0.5s infinite normal;
+}
+
+@keyframes bounce{
+  0%{
+    transform: translateY(0);
+  }
+  40%{
+    transform: translateY(-30px);
+  }
+
+  
+  100%{
+    transform: translateY(0);
+  }
+
+}
+
+.rotate{
+  animation: rotating 5s ease-in-out 0.5s infinite normal;
+}
+
+@keyframes rotating{
+  0%{
+    rotate: 0deg;
+  }
+  100%{
+    rotate: 360deg;
+  }
 }

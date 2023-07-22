@@ -1,11 +1,14 @@
 import send from "../Images/send.png"
+import mail from '../Images/icons/mail.png'
 
 
 function Contacts(){
     return(
 
-            <div className="p-5">
+            <div className="p-5" id="id_contacts">
+
                 <p className="md:text-4xl text-3xl font-bold text-center">Contact </p>
+                <img src={mail} className='rocket lg:absolute lg:right-0 w-2/12'/>
                 <p className="md:text-lg text-md text-center">Please fill your details for any type of quires</p>
                 <div className="text-center">
                     <div className="flex-horizontal flex-wrap justify-center items-center">
