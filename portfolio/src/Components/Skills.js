@@ -15,7 +15,7 @@ import gear from '../Images/icons/gear.png';
 
 export default function Skills(){
     return(
-        <container className="flex justify-center items-center text-black py-8" id="id_skills">
+        <container className="flex justify-center items-center text-black py-6" id="id_skills">
             <div className="border border-black rounded-3xl p-4 bg-yellow-100 shadow-lg" style={{width:"60vw"}}>
 
                 <div className='flex items-center justify-center'>

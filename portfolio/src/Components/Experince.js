@@ -2,11 +2,11 @@ import lap from '../Images/icons/lap.png'
 
 export default function Experince(){
     return(
-            <div className="Experience px-6 py-8 md:px-16 md:flex justify-center md:justify-start md:items-center" id="id_experience" style={{height:""}}>
-                 <img src={lap} className='rocket md:w-96 w-0 md:ml-10'/>
+            <div className="Experience md:pt-20 px-6 py-3 md:px-16 md:flex justify-center md:justify-start md:items-center" id="id_experience" style={{height:""}}>
+                 <img src={lap} className='rocket md:w-56 lg:w-1/3 w-0 md:ml-0 lg:ml-10'/>
                  <div>
                      <p className="text-3xl md:text-5xl font-bold text-end">Experince</p>
-                    <div className="my-10 md:mr-5 lg:ml-48 md:ml-28 text-end">
+                    <div className="my-6 md:mr-3 lg:ml-48 md:ml-15 text-end">
                         <p className="md:text-4xl text-2xl font-bold"><a href="https://weiw.in/" target="_blank">Weiw <span className="text-lg font-medium"> [ Founder ] </span></a> </p>
                         <p className="text-lg font-medium text-stone-400">August 2022 - May 2023</p>
                         <ul className="p-4 mt-3 md:text-xl text-md text-white ">
@@ -19,7 +19,7 @@ export default function Experince(){
     
     
     
-                    <div className="my-10 md:mr-5 lg:ml-48 md:ml-28  text-end">
+                    <div className="my-10 md:mr-5 lg:ml-48 md:ml-15  text-end">
                         <p className="md:text-4xl text-2xl font-bold"><a href="https://weiw.in/" target="_blank">Academy Box <span className="text-lg font-medium"> [ Founder ] </span></a> </p>
                         <p className="text-lg font-medium text-stone-400">April 2023 - Present</p>
     

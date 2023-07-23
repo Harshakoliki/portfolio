@@ -6,8 +6,7 @@ import lap from '../Images/icons/lap.png'
 function About(){
     return(
         
-        <div className= "about md:h-screen md:w-full flex flex-wrap justify-between items-center" id="id_about" style={{}}>
-            <img src={person} className='rocket absolute w-0 right-4 bottom-4 md:w-1/3'/>
+        <div className= "about md:h-screen md:pt-20 pt-10 md:w-full flex flex-wrap justify-between items-center" id="id_about" style={{}}>
 
             <div className='flex flex-wrap p-10 md:w-2/3'>
                 <div className='border rounded-xl md:p-5 p-3'>
@@ -22,6 +21,7 @@ function About(){
 
 
             </div>
+            <img src={person} className='rocket absolute w-0 right-4 bottom-4 md:w-1/3'/>
 
         </div>
 

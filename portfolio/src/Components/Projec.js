@@ -9,7 +9,7 @@ export default function Projec(){
         <div className='my-10' id="id_projects">
             <div className='text-3xl md:text-4xl font-bold text-center items-center my-10'> Projects</div>
             <div className='flex flex-wrap justify-center items-center'>
-                <div className='pop_up h-96 w-80 p-1 bg-white text-gray-700 rounded-lg shadow-lg m-2'>
+                <div className='pop_up h-96 w-80 p-1 bg-gray-100 text-gray-700 rounded-lg shadow-lg m-2'>
                     <img src={weiw} className='rounded-md'/>
                     <div className=''>
                         <p className='text-sm px-3 py-2 text-center border border-black rounded-md mt-3'>Weiw(view) is a new age entertainment platform, where it serves multiple differnet OTT platforms under one roof on a pay-as-you-go model.</p>
@@ -22,7 +22,7 @@ export default function Projec(){
 
                 </div>
 
-                <div className='pop_up h-96 w-80 p-1 bg-white text-gray-700 rounded-lg shadow-lg m-2 '>
+                <div className='pop_up h-96 w-80 p-1 bg-gray-100 text-gray-700 rounded-lg shadow-lg m-2 '>
                     <img src={nebula} className='rounded-md'/>
                     <div className=''>
                         <p className='text-sm px-3 py-2 text-center border border-black rounded-md mt-3'>Nebula is a 48-hours hackathon organised by Jain University.</p>
