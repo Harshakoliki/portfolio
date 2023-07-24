@@ -11,17 +11,18 @@ function Nav(){
             <div className='font-bold py-2 text-center md:text-center md:text-3xl text-2xl'>
                 <a href='#id_about'> Portfolio.</a>
             </div>
-            <div className='lg:hidden border border-black p-2 ml-3 rounded-md text-white bg-red-500 hover:bg-black hover:text-white'><a href='' className='flex items-center'>Resume<img src={resume} className='w-5 h-5 ml-1'/></a>
+            <div className='lg:hidden border border-black p-2 ml-3 rounded-md text-white bg-red-500 hover:bg-black hover:text-white'><a href='https://drive.google.com/file/d/15oODBF4ppK3552JJk00OJg9KLmKfqjgj/view?usp=sharing' target="_blank" className='flex items-center'>Resume<img src={resume} className='w-5 h-5 ml-1'/></a>
             </div>
             <div>
                 <ul className='lg:flex lg:justify-end hidden'>
-                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_about' className=''>About</a></li>
-                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_experience' className=''>Experience</a></li>
-                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_skills' className=''>Skills</a></li>
-                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_projects' className=''>Projects</a></li>
-                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_education' className=''>Education</a></li>
-                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><a href='#id_contacts' className=''>Contact</a></li>
-                    <li className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md text-white bg-red-500 hover:bg-black hover:text-white'><a href='https://drive.google.com/file/d/15oODBF4ppK3552JJk00OJg9KLmKfqjgj/view?usp=sharing' target="_blank" className='flex'>Resume<img src={resume} className='w-6 ml-1'/></a></li>
+                    <a href='#id_about'className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><li className=''>About</li></a>
+                    <a href='#id_experience' className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><li className=''>Experience</li></a>
+                    <a href='#id_skills' className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><li className=''>Skills</li></a>
+                    <a href='#id_projects' className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><li className=''>Projects</li></a>
+                    <a href='#id_education' className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><li className=''>Education</li></a>
+                    <a href='#id_contacts' className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md hover:bg-red-500 hover:text-white'><li className=''>Contact</li></a>
+                    <a href ='https://drive.google.com/file/d/15oODBF4ppK3552JJk00OJg9KLmKfqjgj/view?usp=sharing' target="_blank" className='pop_up shadow-lg border border-black md:p-3 md:ml-3 rounded-md text-white bg-red-500 hover:bg-black hover:text-white'><li className='flex items-center'> Resume <img src ={resume} className='w-6 ml-1'/></li></a>
+
                 </ul>
             </div>
         </div>
