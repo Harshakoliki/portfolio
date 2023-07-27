@@ -6,7 +6,7 @@ export default function Education(){
     return(
         <div className="my-10" id="id_education">
             <div className="p-5">
-              <p className="text-center text-4xl font-bold my-6">Education</p>
+              <p className="text-center md:text-5xl text-3xl font-bold my-6">Education</p>
 
               <VerticalTimeline lineColor="#fff">
                   <VerticalTimelineElement

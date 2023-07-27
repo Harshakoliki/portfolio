@@ -10,7 +10,7 @@ function About(){
 
             <div className='flex flex-wrap p-10 md:w-2/3'>
                 <div className='border rounded-xl md:p-5 p-3'>
-                    <div className='font-bold text-3xl md:text-6xl'>Hello, I'm Harsha Koliki</div>
+                    <div className='font-bold text-3xl md:text-6xl'>Hello, I'm <span className='hover:text-yellow-300 duration-100 cursor-pointer'>Harsha Koliki</span></div>
                     <div className='md:text-2xl text-md md:m-5'>
                     I am a <span className='text-red-500 md:text-3xl hover:text-yellow-300 hover:p-1 hover:font-bold cursor-pointer'>UI/UX designer </span>& a<span className='text-red-500 md:text-3xl hover:text-yellow-300 hover:p-1 hover:font-bold cursor-pointer'> Developer</span>, 
                     experienced in developing Front-End Web Applications using React js and Mobile Applications using Java and Android Studios IDE.

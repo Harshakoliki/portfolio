@@ -20,7 +20,7 @@ body{
 
 
 .pop_up{
-  transition: transform 0.3s ease 0s;
+  transition: transform 0.5s ease 0s;
 }
 .pop_up:hover{
   transform: translateY(-10px);
